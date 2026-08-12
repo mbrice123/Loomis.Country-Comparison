@@ -8,7 +8,7 @@ import plotly.express as px
 # LOAD DATA
 # =========================
 df = pd.read_excel(
-    r"L:\Dept\FIM\Shared\Global Macro\Sovereign Analysts, PMs\Mike B\country_dashboard\country_dashboard.xlsm",
+    "country_dashboard.xlsm",
     sheet_name="country_Data"
 )
 
